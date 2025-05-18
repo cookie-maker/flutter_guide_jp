@@ -29,7 +29,7 @@ StatefulWidgetクラスそれ自体は不変ですが、Stateクラスでウィ�
 ### 状態保持
 
 1. 最小の状態保持クラスを作成します。  
-``lib/main.dart``の末尾に以下を追加して下ください。
+``lib/main.dart``の末尾に以下を追加してください。
 
     {{< highlight dart >}}
     class RandomWordsState extends State<RandomWords> {
